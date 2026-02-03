@@ -1,0 +1,153 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+}
+
+html {
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* header start */
+
+header {
+  background-color: #F5F7FA;
+}
+
+.header-container {
+  height: 84px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 105px;
+
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 125px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+
+}
+
+nav ul a {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #18191f;
+}
+
+.auth {
+  display: flex;
+  gap: 14px;
+}
+
+.auth a {
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.login {
+  color: #4CAF4F
+}
+
+.signup {
+  color: #fff;
+  background-color: #4CAF4F;
+  border-radius: 6px;
+}
+
+/* header end */
+
+/* hero start */
+.hero {
+  background-color: #F5F7FA;
+  height: 600px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 105px;
+  position: relative;
+
+}
+
+.hero_content {
+  max-width: 657px;
+}
+
+.hero_content h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+  color: #717171;
+  margin-bottom: 16px;
+}
+
+.hero_content span {
+  color: #4CAF4F;
+}
+
+.hero_content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #717171;
+  margin-bottom: 32px;
+}
+
+.hero_content a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 14px 32px;
+}
+
+.hero_img {
+  width: 391px;
+  height: 407px;
+  object-fit: contain;
+}
+
+
+.hero_pagination {
+  position: absolute;
+  bottom: 16px;
+  left: calc(50% - 23px);
+  display: flex;
+  gap: 8px;
+  width: max-content;
+}
+
+.hero_pagination span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #4CAF4F;
+  opacity: 30%;
+
+}
+
+.hero_pagination span.active {
+  opacity: 100%;
+}
+
+/* hero end */
