@@ -16,6 +16,11 @@ a {
   color: inherit;
 }
 
+ol,
+ul {
+  list-style: none;
+}
+
 /* header start */
 
 header {
@@ -39,7 +44,6 @@ nav {
 }
 
 nav ul {
-  list-style: none;
   display: flex;
   gap: 50px;
 
